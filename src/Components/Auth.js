@@ -10,7 +10,8 @@ const cookies = new Cookies();
 const Auth = () => {
   const setIsAuth = useContext(authContext);
 
-  const signIn = async () => {
+  const signIn = async (e) => {
+    e.preventDefault();
     try {
       const response = await signInWithPopup(auth, provider);
       cookies.set("auth-token", response.user.refreshToken);
@@ -19,6 +20,8 @@ const Auth = () => {
       console.log(err);
     }
   };
+
+
 
   return (
     <div className="auth">
