@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Chat-room
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web app where user can sign in through his/her google account and be a part of group chat. It's front-end is designed using Figma & developed using HTML, CSS, JavaScript with ReactJs & for backend & database, Google's Firebase is used. 
+
+Project is on:- 
 
 ## Available Scripts
 

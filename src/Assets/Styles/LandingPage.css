@@ -1,0 +1,107 @@
+.Landing-Header {
+  margin: 0px 15px;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Log-In {
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Log-In:hover {
+  background-color: rgb(102, 102, 233);
+  color: #ffffff;
+}
+
+.Main-Container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Main-Poster {
+  position: relative;
+  background: white;
+  margin: 20px;
+}
+
+.div1 {
+  width: 500px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: rgb(102, 102, 233);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.div3 {
+  width: 500px;
+  height: 300px;
+  left: 400px;
+  top: 290px;
+  position: absolute;
+  background: rgb(102, 102, 233);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.div2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+.div4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+.Auth-Tab {
+  width: 400px;
+  height: 500px;
+  background: #3a3939;
+  margin: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Auth-Heading{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  position: relative;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Auth-Text{
+    margin-bottom: 30px;
+}
