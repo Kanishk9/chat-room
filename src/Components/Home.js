@@ -1,4 +1,4 @@
-import LandingPageHeader from "./LandingPageHeader";
+import PageHeader from "./PageHeader";
 import LandingPagePoster from "./LandingPagePoster";
 
 import { auth, provider } from "../firebase-config";
@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <>
-      <LandingPageHeader signIn={signIn}/>
+      <PageHeader signIn={signIn} title="LOG IN" />
       <LandingPagePoster signIn={signIn}/>
     </>
   );

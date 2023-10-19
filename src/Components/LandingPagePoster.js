@@ -1,4 +1,4 @@
-import LogInButton from "./LogInButton";
+import LogInLogOutButton from "./LogInLogOutButton";
 
 import { FcGoogle } from "react-icons/fc";
 import "../Assets/Styles/LandingPage.css";
@@ -19,7 +19,7 @@ const LandingPagePoster = (props) => {
           <div className="Auth-Text">Authenticate Yourself & simply Chat</div>
           <div classname="Icon-Button">
             <FcGoogle />
-            <LogInButton signIn={props.signIn} />
+            <LogInLogOutButton signIn={props.signIn} title="LOG IN" />
           </div>
         </div>
       </div>
