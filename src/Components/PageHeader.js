@@ -6,7 +6,7 @@ const PageHeader = (props) => {
     <>
       <div className="Landing-Header">
         <p className="App-Title">CHAT-ROOM</p>
-        <LogInLogOutButton signIn={props.signIn} title={props.title} />
+        <LogInLogOutButton onClick={props.onClick} title={props.title} />
       </div>
     </>
   );

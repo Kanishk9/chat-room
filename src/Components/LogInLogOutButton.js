@@ -4,7 +4,7 @@ import "../Assets/Styles/LandingPage.css";
 const LogInLogOutButton = (props) => {
   return (
     <>
-      <button className="Log-In" onClick={props.signIn}>
+      <button className="Log-In" onClick={props.onClick}>
         <FiLogIn size={25} />
         &nbsp;
         <span>{props.title}</span>

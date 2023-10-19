@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <>
-      <PageHeader signIn={signIn} title="LOG IN" />
+      <PageHeader onClick={signIn} title="LOG IN" />
       <LandingPagePoster signIn={signIn}/>
     </>
   );
