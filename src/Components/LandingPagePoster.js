@@ -17,7 +17,7 @@ const LandingPagePoster = (props) => {
       <div className="Auth-Tab">
         <div className="Auth-Heading">
           <div className="Auth-Text">Authenticate Yourself & simply Chat</div>
-          <div classname="Icon-Button">
+          <div className="Icon-Button">
             <FcGoogle />
             <LogInLogOutButton onClick={props.signIn} title="LOG IN" />
           </div>

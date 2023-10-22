@@ -9,7 +9,7 @@ const CreateRoomButton = (props) => {
 
   return (
     <>
-      <button className="CreateRoom-Button" onClick={() => {setIsRoom(props.roomInputRef.current.value)}}>
+      <button ref={props.createRoomButtonRef} className="CreateRoom-Button" onClick={() => {setIsRoom(props.roomInputRef.current.value)}}>
         <HiPlus size={17}/>
         &nbsp;
         <span>Room</span>

@@ -6,14 +6,21 @@ import "../Assets/Styles/CreateRoom.css";
 
 const CreateRoom = (props) => {
   const roomInputRef = useRef(null);
+  const createRoomButtonRef = useRef();
+
+  const onPressEnter = (event) => {
+    if(event.key === "Enter"){
+        createRoomButtonRef.current.click();
+    }
+  }
 
     return ( 
         <>
         <div className="CreateRoom-Container">
             <div className="CreateRoom-Block">
                 <h3>Create Chat-Room</h3>
-                <input className="CreateRoom-Input" ref={roomInputRef} type="text" placeholder="Enter Room Code" />
-                <CreateRoomButton roomInputRef={roomInputRef} />
+                <input className="CreateRoom-Input" ref={roomInputRef} type="text" placeholder="Enter Room Code" onKeyDown={onPressEnter} />
+                <CreateRoomButton createRoomButtonRef={createRoomButtonRef} roomInputRef={roomInputRef} />
             </div>
         </div>
         </>
