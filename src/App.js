@@ -5,8 +5,6 @@ import Chatroom from "./Components/Chatroom";
 
 import { authContext } from "./Contexts/Context";
 
-import "./App.css";
-
 import Cookies from "universal-cookie";
 const cookies = new Cookies();
 

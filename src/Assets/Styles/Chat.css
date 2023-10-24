@@ -1,0 +1,108 @@
+.Chat-Container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.Chat-Nav {
+  float: left;
+  min-height: 690px;
+  width: 250px;
+  margin: 0 10px 0 0;
+  background: rgb(102, 102, 233);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.User-Name-NavBar{
+    text-align: center;
+}
+
+.Chat-New-Room {
+  display: flex;
+  align-items: center;
+  padding: 5px 7px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.Chat-New-Room:hover {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+.User-Img {
+  border-radius: 50%;
+  width: 60%;
+}
+
+.Chat-Form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Chat-Msg-Input {
+  position: relative;
+  padding: 15px 10px;
+  width: 90%;
+  font-weight: bold;
+  top: 32px;
+  border-radius: 10px;
+}
+
+.Chat-Msg-Input:focus {
+  border-width: 3px;
+}
+
+.Chat-Send {
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 17px;
+  right: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 10px 20px;
+}
+
+.Chat-Send:hover {
+  background-color: rgb(102, 102, 233);
+  color: white;
+}
+
+.Chat-Box {
+  box-sizing: border-box;
+  overflow: auto;
+  height: 535px;
+  width: auto;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  position: relative;
+  top: 14px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.All-Chat {
+  text-align: left;
+  margin: 5px;
+}
+
+.All-Chat-User {
+  text-align: right;
+  margin: 5px;
+}
+
+.All-Chat-User .User {
+  color: rgb(7, 141, 7);
+  font-weight: bold;
+}
+
+.User {
+  color: rgb(102, 102, 233);
+  font-weight: bold;
+}

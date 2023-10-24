@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-import PageHeader from "./PageHeader";
 import CreateRoom from "./CreateRoom";
 import Chat from "./Chat";
 
@@ -26,9 +25,8 @@ const Chatroom = () => {
 
   return (
     <>
-      <PageHeader onClick={signUserOut} title="LOG OUT" />
       <isRoomContext.Provider value={setIsRoom}>
-        {isRoom == null ? <CreateRoom /> : <Chat />}
+        {isRoom == null ? <CreateRoom signUserOut={signUserOut}/> : <Chat signUserOut={signUserOut} room={isRoom} />}
       </isRoomContext.Provider>
     </>
   );

@@ -1,4 +1,5 @@
-import "../Assets/Styles/LandingPage.css";
+import "../Assets/Styles/Header.css";
+
 import LogInLogOutButton from "./LogInLogOutButton";
 
 const PageHeader = (props) => {
