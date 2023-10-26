@@ -4,7 +4,7 @@ This is a web app where user can sign in through his/her google account and be a
 
 Project is on:- 
 
-[Figma Design Link](https://www.figma.com/file/69f23I4WDzugCPHi1e4JSD/Chat-Room?type=design&node-id=3%3A53&mode=dev)
+### `Figma Design Link` :- https://www.figma.com/file/69f23I4WDzugCPHi1e4JSD/Chat-Room?type=design&node-id=3%3A53&mode=dev
 
 ## Available Scripts
 
