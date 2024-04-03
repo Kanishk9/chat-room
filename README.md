@@ -17,7 +17,17 @@ Project is on:-
 * Firebase: A comprehensive platform provided by Google for building mobile and web applications.
 
 ## Prerequisites:
+* A Google account for logging into the chat room.
 * Node.js is installed on your machine.
 * A Firebase project set up with Realtime Database and Authentication enabled.
 
 ## Screenshots
+
+Login-screen
+![Login-screen](https://github.com/Kanishk9/chat-room/assets/42390255/a8966e87-5bc7-4e5b-b672-5bdd3e07093f)
+
+Create-room-screen
+![Create-room](https://github.com/Kanishk9/chat-room/assets/42390255/465c3eca-6b37-480f-a8c2-3717dfea8390)
+
+Chat-room-screen
+![Chat-room](https://github.com/Kanishk9/chat-room/assets/42390255/e62c382f-480a-4e5a-b398-c9040cb7fef0)
